@@ -1,0 +1,45 @@
+{
+  "name": "evil-tyla-tech-bot",
+  "version": "2.0.0",
+  "description": "Advanced Telegram Bot - AI ChatGPT + Group Management & Fun Commands",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "chatgpt",
+    "ai",
+    "group-management",
+    "moderation",
+    "fun"
+  ],
+  "author": "princetechbusinessassociations-byte",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "openai": "^4.24.0",
+    "node-cache": "^5.1.2",
+    "sharp": "^0.33.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "quick.db": "^9.0.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "yt-dlp": "^1.1.1",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.54.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
